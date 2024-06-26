@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
 }
 
+/* Убрать боковой скролл */
+html {
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: "Font"; 
     src: url("fonts/font.woff2"); 
@@ -57,17 +62,15 @@ body {
 
     background-color: var(--bg-color);
     color: white;
-    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    /* font-family: 'Comic Sans MS, Comic Sans', cursive; */
+    font-family: 'Roboto', cursive;
 }
 
 header {
     font-size: 30px;
     position: fixed;
-    top: 0;
     width: 100%;
     justify-content: center;
-    gap: 10px;
-    padding: 10px;
     background-color: var(--bg-color);
     box-shadow: 0 5px 5px var(--bg-color);
     /* To ensure it's on top */
@@ -77,7 +80,8 @@ header {
 .header-block {
     display: flex;
     align-items: center;
-    gap: 60px;
+    /* Высота шапки-меню */
+    gap: 20px;
 }
 
 .block-left {justify-content: left;}
@@ -92,8 +96,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding-right: 10px;
+    gap: 10px;
     border-right: solid 2px gold;
 }
 
