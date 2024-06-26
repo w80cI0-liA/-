@@ -64,7 +64,7 @@
     .section-block {
         justify-content: center;
         align-items: flex-end;
-        background-image: url('/static/images/me/Gleb-mobile.jpg');
+        background-image: url('./static/images/me/Gleb-mobile.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: auto calc(100% - 80px);
