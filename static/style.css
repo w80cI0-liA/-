@@ -149,6 +149,9 @@ section:nth-child(1) {
 
 .text-block small {
     font-size: 20px;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
 }
 
 .text-block .contact-me {
@@ -272,6 +275,9 @@ section:nth-child(1) {
     z-index: 3;
     margin: 0;
     transition: 0.2s ease;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
 }
 
 .portfolio-block button {
@@ -290,6 +296,9 @@ section:nth-child(1) {
 
 .portfolio-block:hover h3, .portfolio-block:hover small, .portfolio-block:hover button {
     z-index: 5;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
 }
 
 /* Стили Experience Timeline */

@@ -84,6 +84,9 @@
     }
     .text-block small {
         font-size: 18px;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
     }
     .text-block .contact-me {
         font-size: 18px;
