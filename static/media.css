@@ -1,0 +1,133 @@
+/* Настройка масштабов для различных разрешений экрана */
+
+@media screen and (max-width: 1300px) {
+    .itc-slider__item {
+        flex: 0 0 33.3%;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .text-block {
+        transform: scale(0.8);
+    }
+    .itc-slider__item {
+        flex: 0 0 50%;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .text-block {
+        transform: scale(0.8);
+    }
+    .itc-slider__item {
+        flex: 0 0 50%;
+        width: 110px;
+    }
+}
+/* Нужно отображать по 1 сертификату за раз */
+@media screen and (max-width: 904px) {
+    .text-block {
+        transform: scale(0.8);
+        margin: 5%;
+    }
+    .itc-slider__item {
+        flex: 0 0 100%;
+        width: 110px;
+    }
+    
+}
+
+
+@media screen and (max-width: 770px) {
+    header {
+        padding: 5px;
+    }
+    .header-block {
+        transform: scale(0.8);
+    }
+    .text-block {
+        transform: scale(0.6);
+    }
+    .text-block {
+        margin: 3%;
+    }
+    .block-right {
+        display: none;
+    }
+    aside {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .section-block {
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url('/static/images/me/Gleb-mobile.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto calc(100% - 80px);
+        background-position: center;
+    }
+    .text-block {
+        background-color: var(--bg-color);
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-shadow: 0 0 5px 5px var(--bg-color);
+        align-items: center;
+        transform: scale(1);
+    }
+    .text-block h1 {
+        font-size: 30px;
+    }
+    .text-block small {
+        font-size: 18px;
+    }
+    .text-block .contact-me {
+        font-size: 18px;
+    }
+    .block-left {
+        display: none;
+    }
+    .itc-slider__item {
+        width: 35px;
+    }
+    header {
+        justify-content: center;
+        padding: 10px;
+    }
+    .header-block {
+        transform: scale(1);
+    }
+    .header-block a {
+        font-size: 18px;
+    }
+    .header-block a:nth-child(5) {
+        display: none;
+    }
+    aside {
+        right: 0;
+        transform: scale(1);
+        padding: 5px;
+        background-color: var(--bg-color);
+        box-shadow: 0px 0px 3px 3px var(--bg-color);
+        z-index: 10000;
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
+    #experience {
+        align-items: center;
+    }
+    .left {
+        align-items: center;
+    }
+    .point {
+        font-size: 10px;
+        padding: 3px;
+    }
+    .itc-slider__item {
+        flex: 0 0 100%;
+    }
+}
