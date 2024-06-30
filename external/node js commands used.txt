@@ -1,0 +1,18 @@
+npm init -y
+npm install --save-dev webpack webpack-cli
+Создание моего скрипта с именем build
+npm run build
+
+Добавление препроцессоров, чтобы webpack bundler справлялся не только с JS файлами
+Для css
+npm install --save-dev css-loader style-loader 
+Для html
+npm install --save-dev html-loader
+
+Опциональный плагин для анализа веса зависимостей
+npm install --save-dev webpack-bundle-analyzer
+
+Для удобной сборки исходников, что дальше будут деплоиться на сервер
+npm install --save-dev webpack-dev-server
+
+
