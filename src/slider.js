@@ -1,3 +1,10 @@
+// Для обработки css Webpack Bundler-ом, предлагается загрузить css в js файл?
+/*
+import '../static/media.css'
+import '../static/media.css'
+import '../static/media.css'
+*/
+
 // Функционал инициализации и анимаций перелистывания сертификатов
 class ItcSlider {
   static #EL_WRAPPER = 'wrapper';

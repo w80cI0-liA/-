@@ -8,6 +8,8 @@ npm run build
 npm install --save-dev css-loader style-loader 
 Для html
 npm install --save-dev html-loader
+Для файлов (изображения)
+npm install --save-dev file-loader
 
 Опциональный плагин для анализа веса зависимостей
 npm install --save-dev webpack-bundle-analyzer
