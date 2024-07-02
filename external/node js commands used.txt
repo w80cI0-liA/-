@@ -17,4 +17,7 @@ npm install --save-dev webpack-bundle-analyzer
 Для удобной сборки исходников, что дальше будут деплоиться на сервер
 npm install --save-dev webpack-dev-server
 
+Дальше сбился.
+По идее при запуске команды run build все недостающие зависимости в node_modules доставятся автоматически
+
 
