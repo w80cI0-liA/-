@@ -63,7 +63,7 @@ body {
     background-color: var(--bg-color);
     color: white;
     /* font-family: 'Comic Sans MS, Comic Sans', cursive; */
-    font-family: 'Roboto', cursive;
+    font-family: Font, 'Roboto', cursive;
 }
 
 header {
