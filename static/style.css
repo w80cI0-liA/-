@@ -62,8 +62,9 @@ body {
 
     background-color: var(--bg-color);
     color: white;
-    /* font-family: 'Comic Sans MS, Comic Sans', cursive; */
-    font-family: Font, 'Roboto', cursive;
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    /* font-family: Font, 'Roboto', cursive;
+    ROBOTO doesn't work on iOS!! */
 }
 
 header {
