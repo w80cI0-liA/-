@@ -9,11 +9,33 @@ html {
     overflow-x: hidden;
 }
 
-@font-face {
-    font-family: "Font"; 
-    src: url("fonts/font.woff2"); 
-    font-style: normal; 
-    font-weight: normal;
+body {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--bg-color);
+    color: white;
+    font-family: Font, 'Roboto', cursive;
+    /* font-family: 'Comic Sans MS, Comic Sans', cursive; */
+}
+
+header {
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--bg-color);
+    box-shadow: 0 5px 5px var(--bg-color);
+    /* To ensure it's on top */
+    z-index: 1000;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    /* Высота шапки-меню */
+    gap: 20px;
 }
 
 :root {
@@ -53,36 +75,6 @@ button, .contact-me {
 button:hover, .contact-me:hover {
     box-shadow: inset 200px 0 0 0 gold;
     color: var(--bg-color) !important;
-}
-
-body {
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-
-    background-color: var(--bg-color);
-    color: white;
-    font-family: 'Comic Sans MS, Comic Sans', cursive;
-    /* font-family: Font, 'Roboto', cursive;
-    ROBOTO doesn't work on iOS!! */
-}
-
-header {
-    font-size: 30px;
-    position: fixed;
-    width: 100%;
-    justify-content: center;
-    background-color: var(--bg-color);
-    box-shadow: 0 5px 5px var(--bg-color);
-    /* To ensure it's on top */
-    z-index: 1000;
-}
-
-.header-block {
-    display: flex;
-    align-items: center;
-    /* Высота шапки-меню */
-    gap: 20px;
 }
 
 .block-left {justify-content: left;}
