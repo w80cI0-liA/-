@@ -67,7 +67,7 @@
         background-image: url('../static/images/me/Gleb-mobile.jpg');
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
-        background-size: auto calc(100% - 80px);
+        background-size: calc(100% - 80px); /*auto */
         background-position: center;
     }
     .text-block {
