@@ -60,15 +60,19 @@
     }
 }
 
-@media screen and (max-width: 770px) and (orientation: portrait) {
+@media screen and (orientation: portrait) {
     .section-block {
         justify-content: center;
         align-items: flex-end;
         background-image: url('../static/images/me/Gleb-mobile.jpg');
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: auto calc(100% - 80px);
+        background-attachment: scroll; /* Избегаем бага с fixed */
+        background-size: contain; /* Заполняет контейнер, но без обрезки */
+        /* background-size: auto calc(100% - 80px); */
         background-position: center;
+        /* Макс. значения */
+        max-width: 100%;
+        max-height: 100vh;
     }
     .text-block {
         background-color: var(--bg-color);
