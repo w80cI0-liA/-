@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="icon" type="image/png" href="./static/images/Logo.png">
-
+		<link rel="icon" type="image/png" href="static/images/Logo.png">
+		
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<meta charset="utf-8">
+
+		<!-- Подключение шрифтов, для кроссплатформенной поддержки -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
 
 		<!-- Стили и анимации галереи сертификатов -->
 		<link href="./static/itc-slider.css" rel="stylesheet">
   		<script src="./static/itc-slider.js" defer></script>
-
+		
 		<!-- Основные стили сайта и адаптация для различных устройств -->
 		<link rel="stylesheet" type="text/css" href="./static/style.css">
 		<link rel="stylesheet" type="text/css" href="./static/media.css">
@@ -19,57 +22,56 @@
 		<title>Kolonin Gleb</title>
 	</head>
 	<body>
-        <header>
-            <div class="header-block block-center">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#experience">Experience</a>
-                <a href="#certificates">Certificates</a>
-            </div>
-        </header>
+		<!-- {% include "metrics.html" %} -->
+		<header>
+			<div class="header-block block-center">
+				<a href="#about">About</a>
+				<a href="#skills">Навыки</a>
+				<a href="#portfolio">Skills</a>
+				<a href="#experience">Portfolio</a>
+				<a href="#certificates">Certificates</a>
+			</div>
+		</header>
 		<main>
 			<section>
 				<div class="section-block">
 					<div class="text-block">
-						<h1>I'm <span class="gold">Kolonin Gleb</span></h1>
+						<h1><span class="gold">Kolonin Gleb</span></h1>
 						<small>Python Developer & Data Engineer</small>
-						<a class='contact-me' href="https://t.me/Spaceship24" target="_blank">Contact&nbsp;Me</a>
+						<a class='contact-me' href="https://t.me/Spaceship24" target="_blank">Contact&nbsp;me</a>
+						<a class='contact-me' href="./static/IT резюме Колонин Глеб.pdf" target="_blank">Resume</a>
 					</div>
 				</div>
-				<!-- Следует изменить её содержимое. Добавить ВК, YandexMail убрать Twitter, Gmail, YouTube?  -->
 				<aside>
 					<a href="https://t.me/Spaceship24" target="_blank">
-						<img src="./static/images/links/Telegram.png" alt="telegram">
+						<img src="./static/images/links/telegram.png" alt="telegram">
 					</a>
 					<a href="https://vk.com/spaceship22" target="_blank">
 						<img src="./static/images/links/VK_color.svg" alt="VK">
 					</a>
-					<a href="mailto: glebkolonin@yandex.ru" target="_blank">
-						<img src="./static/images/links/Yandex_Mail_icon.svg" alt="email">
-					</a>
-					<a href="https://discord.com/channels/@me/1236704884888174592" target="_blank">
-						<img src="./static/images/links/Discord.png" alt="Discord">
-					</a>
-					<!-- <a href="mailto: koloningleb@gmail.com" target="_blank">
+					<a href="mailto: koloningleb@gmail.com" target="_blank">
 						<img src="./static/images/links/Gmail.png" alt="email">
-					</a> -->
-					<!-- <a href="https://twitter.com/GKolonin" target="_blank">
+					</a>
+					<a href="https://twitter.com/GKolonin" target="_blank">
 						<img src="./static/images/links/X_Twitter.png" alt="X/Twitter.png">
-					</a> -->
-					<!-- <a href="https://www.youtube.com/channel/" target="_blank">
-						<img src="./static/images/links/youtube.png" alt="YouTube">
+					</a>
+					<!-- <a href="https://discordapp.com/users/819641038859534360" target="_blank">
+						<img src="./static/images/links/Discord.png" alt="Discord">
 					</a> -->
 				</aside>
 			</section>
-
+			
 			<!-- About me -->
 			<section class="data-section">
 				<div class="data-block left" id="about">
-					<!-- TODO: Выравнять этот h2 по центру -->
 					<h2 class="left">About</h2>
 					<p class="left">
-						4rd year IT college student, GPA 5 out of 5. Completed internship at the Smart Meal Service Company, got letter of recomendation there. I can't stand dirty code. I have experience in managing a development team, winning hackathons competions such as: DriveHack (city), IThub (college). My English is B2 (passed IELTS Academic scoring solid 6 out of 9). I am preparing to apply for a bachelor's degree in Russia. Looking for an internship in a strong team in an international company. I’m looking to collaborate on world changing projects!
+						I am studing at MISIS University (Bachelor's programme in Business Informatics) <br>
+						Graduated with merrit from IThub college (Data-Engineer specialty) <br>
+						Completed internship at the Smart Meal Service Company, got letter of recomendation there. <br>
+						I have experience in managing a development team, winning hackathons competions such as: DriveHack (city), IThub (college). <br>
+						My English is C1 (passed IELTS Academic scoring solid 6 out of 9). <br>
+						I’m looking to collaborate on world changing projects! <br>
 					</p>
 				</div>
 
@@ -119,12 +121,11 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Portfolio -->
 				<div class="data-block" id="portfolio">
 					<h2>Portfolio:</h2>
 					<div class="portfolio-container">
-						<!--  class="contact-me" Should I use this class here? -->
 						<a class="portfolio-block" href="https://github.com/Kolonin-Gleb/IT-Club" target="_blank">
 							<img src="./static/images/portfolio/IT_Club/IT Club.jpg" alt="IT Club Website">
 							<h3>IT Club</h3>
@@ -148,13 +149,13 @@
 
 				<!-- Experience Timeline -->
 				<div class="data-block" id="experience">
-					<h2>Experience</h2>
+					<h2>Work experience</h2>
 					<div class="exp-container">
 						<div class="exp-cont-block">
 							<div class="exp-date">
-								<div class="point">06.2022</div>
-								<div class="line"></div>
 								<div class="point">09.2022</div>
+								<div class="line"></div>
+								<div class="point">06.2022</div>
 							</div>
 							<div class="exp-block">
 								<h3>Data-Engineer</h3>
@@ -171,9 +172,9 @@
 						</div>
 						<div class="exp-cont-block">
 							<div class="exp-date">
-								<div class="point">06.2022</div>
-								<div class="line"></div>
 								<div class="point">09.2022</div>
+								<div class="line"></div>
+								<div class="point">06.2022</div>
 							</div>
 							<div class="exp-block">
 								<h3>Teamlead and developer</h3>
@@ -186,9 +187,9 @@
 						</div>
 						<div class="exp-cont-block">
 							<div class="exp-date">
-								<div class="point">01.2022</div>
-								<div class="line"></div>
 								<div class="point">06.2022</div>
+								<div class="line"></div>
+								<div class="point">01.2022</div>
 							</div>
 							<div class="exp-block">
 								<h3>Data-Analyst</h3>
@@ -200,9 +201,9 @@
 						</div>
 						<div class="exp-cont-block">
 							<div class="exp-date">
-								<div class="point">09.2020</div>
-								<div class="line"></div>
 								<div class="point">09.2022</div>
+								<div class="line"></div>
+								<div class="point">09.2020</div>
 							</div>
 							<div class="exp-block">
 								<h3>CEO & Founder</h3>
@@ -219,24 +220,25 @@
 
 				<!-- My certificates -->
 				<div class="data-block" id="certificates">
-					<h2>Certificates</h2>
+					<h2>Сертификаты</h2>
 					<div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="false">
 						<div class="itc-slider__wrapper">
 							<div class="itc-slider__items">
 								<div class="itc-slider__item">
-									<img src="./static/images/certificates/Reference letter from SMS.jpg" alt="Reference letter from SMS">
+									
+									<img src="./static/images/certificates/Reference letter from SMS rus.jpg" alt="Reference letter from SMS">
 								</div>
 								<div class="itc-slider__item">
-									<img src="./static/images/certificates/Test automation with Selenium and Python eng.jpg" alt="Test automation Certificate">
+									<img src="./static/images/certificates/Test automation with Selenium and Python rus.jpg" alt="Test automation Certificate">
 								</div>
 								<div class="itc-slider__item">
 									<img src="./static/images/certificates/Java Script Certificate.jpg" alt="JS Certificate">
 								</div>
 								<div class="itc-slider__item">
-									<img src="./static/images/certificates/Python Advanced eng.jpg" alt="Python-1 Certificate">
+									<img src="./static/images/certificates/Python Advanced rus.jpg" alt="Python-1 Certificate">
 								</div>
 								<div class="itc-slider__item">
-									<img src="./static/images/certificates/Python Professional eng.jpg" alt="python-2 Certificate">
+									<img src="./static/images/certificates/Python Professional rus.jpg" alt="python-2 Certificate">
 								</div>
 								<div class="itc-slider__item">
 									<img src="./static/images/certificates/DriveHack_3.jpg" alt="DriveHack Certificate">
@@ -252,6 +254,39 @@
 				</div>
 			</section>
 		</main>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JPLH02S7EL"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-JPLH02S7EL');
+        </script>
+
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(97704770, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript>
+            <div>
+                <img src="https://mc.yandex.ru/watch/97704770" style="position:absolute; left:-9999px;" alt="" />
+            </div>
+        </noscript>
+        <!-- /Yandex.Metrika counter -->
 	</body>
 </html>
 
