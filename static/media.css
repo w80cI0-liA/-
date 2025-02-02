@@ -60,15 +60,14 @@
     }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 770px) and (orientation: portrait) {
     .section-block {
         justify-content: center;
         align-items: flex-end;
         background-image: url('../static/images/me/Gleb-mobile.jpg');
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-        background-attachment: scroll !important;
-        background-size: calc(100% - 80px); /*auto */
+        background-attachment: fixed;
+        background-size: auto calc(100% - 80px);
         background-position: center;
     }
     .text-block {
